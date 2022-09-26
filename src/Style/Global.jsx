@@ -8,8 +8,8 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     html,body{
-        height: 100vh;
-        width: 100vw;
+        max-height: 100vh;
+        max-width: 100vw;
         text-rendering: optimizeLegibility;
         font-family: 'Courier New', Courier, monospace;
     }

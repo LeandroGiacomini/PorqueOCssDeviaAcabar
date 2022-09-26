@@ -1,11 +1,30 @@
 import React from 'react';
-import { Div } from './Style.jsx';
+import { Container,Navbar,ProfileContainer,Image,Title, Link } from './Style.jsx';
 
 
 export function App(){
     return(
-        <Div>
-            Very <br /> Flores
-        </Div>
+        <Container>
+            <Navbar>
+                <ProfileContainer>
+                    <Image src='' />
+                    <Title>
+                        Very Flores
+                    </Title>
+                </ProfileContainer>
+                <Link>
+                    HOME
+                </Link>
+                <Link>
+                    ABOUT
+                </Link>
+                <Link>
+                    MORE
+                </Link>
+                <Link>
+                    CONTACT
+                </Link>
+            </Navbar>
+        </Container>
     )
 }

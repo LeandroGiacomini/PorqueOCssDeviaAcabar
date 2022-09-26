@@ -1,13 +1,58 @@
 import styled from "styled-components";
 
 
-const Div = styled.div`
+const Container = styled.div`
 
-    font-size: 200px;
+    height: 20rem;
     display: flex;
-    justify-content: center;
-    color: blue;
+    flex-direction: row;
+
+    @media (min-width:600px ;) {
+        flex-direction: column;
+    }
 
 `;
 
-export {Div};
+const Navbar = styled.div`
+
+    max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+`;
+
+const ProfileContainer = styled.div`
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+`;
+
+const Image = styled.img`
+
+    width: 10rem;
+    height: 10rem;
+
+`;
+
+const Title = styled.h2`
+
+    font-size: 2rem;
+
+`;
+
+const Links = styled.ul`
+
+    display: flex;
+
+
+`;
+
+const Link = styled.li``;
+
+
+
+export {Container, Navbar, ProfileContainer, Image, Title, Link , Links};
