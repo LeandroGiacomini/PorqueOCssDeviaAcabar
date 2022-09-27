@@ -2,6 +2,7 @@ import React from 'react';
 import { Container,Navbar,ProfileContainer,Image,Title, Link,Links } from './Style.jsx';
 import Logo from '../assets/panic.svg';
 
+
 export function App(){
     return(
         <Container>

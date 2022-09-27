@@ -19,11 +19,11 @@ const Container = styled.div`
 
 const Navbar = styled.div`
 
-    max-width: 100%;
-    min-height: 10%;
-
+    width: 100%;
+    margin-right: 50px;
     display: flex;
     justify-content: space-between;
+
 
 `;
 
