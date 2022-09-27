@@ -1,29 +1,31 @@
 import React from 'react';
-import { Container,Navbar,ProfileContainer,Image,Title, Link } from './Style.jsx';
-
+import { Container,Navbar,ProfileContainer,Image,Title, Link,Links } from './Style.jsx';
+import Logo from '../assets/panic.svg';
 
 export function App(){
     return(
         <Container>
             <Navbar>
                 <ProfileContainer>
-                    <Image src='' />
+                    <Image src={Logo} />
                     <Title>
                         Very Flores
                     </Title>
                 </ProfileContainer>
-                <Link>
-                    HOME
-                </Link>
-                <Link>
-                    ABOUT
-                </Link>
-                <Link>
-                    MORE
-                </Link>
-                <Link>
-                    CONTACT
-                </Link>
+                <Links>
+                    <Link>
+                        HOME
+                    </Link>
+                    <Link>
+                        ABOUT
+                    </Link>
+                    <Link>
+                        MORE
+                    </Link>
+                    <Link>
+                        CONTACT
+                    </Link>
+                </Links>
             </Navbar>
         </Container>
     )

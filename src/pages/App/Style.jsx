@@ -3,12 +3,16 @@ import styled from "styled-components";
 
 const Container = styled.div`
 
-    height: 20rem;
+    background-color: grey;
     display: flex;
     flex-direction: row;
-
-    @media (min-width:600px ;) {
-        flex-direction: column;
+    max-height: 100%;
+    min-height: 100%;
+    @media (min-widht: 600px) {
+        #root{
+            display: flex;
+        }
+        
     }
 
 `;
@@ -16,9 +20,9 @@ const Container = styled.div`
 const Navbar = styled.div`
 
     max-width: 100%;
+    min-height: 10%;
 
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 
 `;
@@ -47,7 +51,9 @@ const Title = styled.h2`
 const Links = styled.ul`
 
     display: flex;
-
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
 
 `;
 
