@@ -1,6 +1,6 @@
 import React from 'react';
-import { Container,Navbar,ProfileContainer,Image,Title, Link,Links } from './Style.jsx';
-import Logo from '../assets/panic.svg';
+import { Container,Navbar,ProfileContainer,Image,Title, Link,Links} from './Style.jsx';
+import Logo from '../../assets/logo.svg'
 
 
 export function App(){
@@ -15,16 +15,16 @@ export function App(){
                 </ProfileContainer>
                 <Links>
                     <Link>
-                        HOME
+                        <a href='#' className='link' >HOME</a>
                     </Link>
                     <Link>
-                        ABOUT
+                        <a href='#' className='link' >SOBRE</a>
                     </Link>
                     <Link>
-                        MORE
+                        <a href='#' className='link' >LOGIN</a>
                     </Link>
                     <Link>
-                        CONTACT
+                        <a href='#' className='link' >CADASTRO</a>
                     </Link>
                 </Links>
             </Navbar>

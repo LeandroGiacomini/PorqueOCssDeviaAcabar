@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
         max-height: 100vh;
         max-width: 100vw;
         text-rendering: optimizeLegibility;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: cursive;
     }
     html{
         font-size: 62.5%;
@@ -19,6 +19,12 @@ const GlobalStyle = createGlobalStyle`
     #root{
         height: 100%;
         width: 100%;
+    }
+    .link{
+        text-decoration: none;
+    }
+    a{
+        color: #333333;
     }
 `;
 

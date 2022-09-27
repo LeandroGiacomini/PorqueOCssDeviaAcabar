@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
 
-    background-color: grey;
+    background-color: #ffafcc;
     display: flex;
     flex-direction: row;
     max-height: 100%;
@@ -19,8 +19,9 @@ const Container = styled.div`
 
 const Navbar = styled.div`
 
+
     width: 100%;
-    margin-right: 50px;
+    margin-right: 40px;
     display: flex;
     justify-content: space-between;
 
@@ -37,8 +38,8 @@ const ProfileContainer = styled.div`
 
 const Image = styled.img`
 
-    width: 10rem;
-    height: 10rem;
+    width: 7rem;
+    height: 7rem;
 
 `;
 
@@ -54,11 +55,23 @@ const Links = styled.ul`
     align-items: center;
     gap: 2rem;
     list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 
 `;
 
-const Link = styled.li``;
+const Link = styled.li`
 
 
+
+`;
+
+export const link = styled.a`
+
+    text-decoration: none;
+    font-size: 50px;
+
+`;
 
 export {Container, Navbar, ProfileContainer, Image, Title, Link , Links};
