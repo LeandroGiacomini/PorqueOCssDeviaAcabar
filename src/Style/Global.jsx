@@ -26,6 +26,51 @@ const GlobalStyle = createGlobalStyle`
     a{
         color: #333333;
     }
+
+
+
+    /*
+    
+    Apenas um teste
+    
+    */
+    .container-footer{
+    background-color: #ffafcc;
+    font-size: larger;
+    color: #fe9001;
+    width: 100%;
+    height: 13vh;
+    text-align: center;
+    font-family: 'Sen', sans-serif;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+   
+    
+    
+}
+#item-logo{
+    width: 12%;
+    margin: 1.5%;
+    margin-left: 3%;
+    
+}
+#item-about{
+    color: #2b2b2b;
+    font-size: 2em;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#item-paragraph{
+    color: black;
+
+} 
+
 `;
 
 export default GlobalStyle;
