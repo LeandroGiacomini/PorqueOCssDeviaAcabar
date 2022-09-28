@@ -1,33 +1,47 @@
 import styled from "styled-components";
 
-export const Conteudo = styled.section`
+export const Conteudo = styled.div`
 
-background-color: #ccc;
-    height: none;
+    background-color: #ccc;
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
 
 `;
 
-export const Article = styled.article`
+export const Centro = styled.div`
+
+    display: flex;
+    flex-direction: row;
+    flex-grow: 5;
+    min-width: 50vw;
+
+`;
+
+export const Principal = styled.div`
+
+    background-color: #333;
+    color: #fff;
+
+    margin: 5px;
+    min-width: 100%;
+    max-height: 100%;
+    min-height:100% ;
+`;
+
+
+
+
+export const Secundario = styled.div`
 
     background-color: #333;
     color: #fff;
     padding: 20px;
     margin: 5px;
-    height: 30px;
-    flex-grow: 0;
-    flex-basis: 20px;
-    flex-shrink: 1;
-    flex-grow: 3;
-
-`;
-
-export const Centro = styled.p`
-
-    display: flex;
-    flex-direction: row;
-    flex-grow: 5;
+    height: 60%;
 
 `;
 

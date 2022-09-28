@@ -1,22 +1,30 @@
 import React from 'react';
-import { Conteudo,Article } from './Style.jsx';
+import { Foter } from '../Components/footer/Footer.jsx';
+import { App } from '../Components/Navbar/Navbar.jsx';
+import { Centro, Conteudo, Principal, Secundario } from './Style.jsx';
 
 export function Home(){
     return(
-        
             <Conteudo >
-                    <Article>
+                <App />
+                <Centro>
+                    <Principal>
                         teste
-                    </Article>
-                            <Article>
-                                teste
-                            </Article>
-                            <Article>
-                                teste
-                            </Article>
-                    <Article>
-                        teste
-                    </Article>
+                    </Principal>
+
+                    <Secundario>
+                        Teste
+                    </Secundario>
+
+                    <Secundario>
+                        Teste
+                    </Secundario>
+
+                    <Secundario>
+                        Teste
+                    </Secundario>
+                </Centro>
+                <Foter />
            </Conteudo>
         
     )

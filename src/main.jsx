@@ -1,17 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { App } from './pages/Navbar/Nabar.jsx'
 import { Home } from './pages/Home/Home.jsx'
 import GlobalStyle from './Style/Global'
-import { Footer } from './pages/Components/Footer.jsx'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 //App = Navbar
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App /> 
-    <Home />
-    <Footer />
+
+
+    
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" exact element={<Home />}></Route>
+    </Routes>
     <GlobalStyle />
-  </React.StrictMode>
+  </BrowserRouter>
+
 )

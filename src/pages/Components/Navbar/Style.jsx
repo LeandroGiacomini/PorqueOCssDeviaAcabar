@@ -19,9 +19,9 @@ const Container = styled.div`
 
 const Navbar = styled.div`
 
-
+    background-color: #ffafcc;
     width: 100%;
-    margin-right: 40px;
+    margin-right: 100%;
     display: flex;
     justify-content: space-between;
 
