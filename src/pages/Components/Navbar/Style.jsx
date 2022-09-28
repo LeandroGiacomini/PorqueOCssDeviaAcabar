@@ -24,7 +24,7 @@ const Navbar = styled.div`
     margin-right: 100%;
     display: flex;
     justify-content: space-between;
-
+    padding: 20px;
 
 `;
 

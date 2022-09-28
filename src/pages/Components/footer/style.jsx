@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const Footer = styled.div`
     background-color: #ffafcc;
     font-size: larger;
-    color: #fe9001;
+    color: dark;
     width: 100%;
-    min-height: 20%;
+    padding-top: 10px;
+    min-height: 8vh;
     text-align: center;
     font-family: 'Sen', sans-serif;
     align-items: center;

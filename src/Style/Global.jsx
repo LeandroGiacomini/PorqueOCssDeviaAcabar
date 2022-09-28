@@ -8,10 +8,10 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
     html,body{
-        max-height: 100vh;
-        max-width: 100vw;
-        min-height: 100vh;
-        min-width: 100vw;
+        max-height: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        min-width: 100%;
 
         text-rendering: optimizeLegibility;
         font-family: cursive;
@@ -20,10 +20,10 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
     #root{
-        max-height: 100vh;
-        max-width: 100vw;
-        min-height: 100vh;
-        min-width: 100vw;
+        max-height: 100%;
+        max-width: 100%;
+        min-height: 100%;
+        min-width: 100%;
     }
     .link{
         text-decoration: none;
