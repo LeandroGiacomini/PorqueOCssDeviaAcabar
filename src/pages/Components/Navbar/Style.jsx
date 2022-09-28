@@ -6,8 +6,8 @@ const Container = styled.div`
     background-color: #ffafcc;
     display: flex;
     flex-direction: row;
-    max-height: 100%;
-    min-height: 100%;
+    height: 100%;
+    height: 100%;
     @media (min-widht: 600px) {
         #root{
             display: flex;
@@ -24,7 +24,6 @@ const Navbar = styled.div`
     margin-right: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
 
 `;
 
@@ -58,6 +57,7 @@ const Links = styled.ul`
     font-size: 16px;
     font-weight: bold;
     font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-right: 10px;
 
 `;
 

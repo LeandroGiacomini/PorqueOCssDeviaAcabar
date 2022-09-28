@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Conteudo = styled.div`
 
-    background-color: #ccc;
+    background-color: #FCF6BD;
     max-height: 100%;
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 102vh;
 
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ export const Principal = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: gray;
     color: #fff;
     max-height: 100%;
     max-width: 100%;
@@ -56,7 +56,7 @@ export const Secundario = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #333;
+    background-color: gray;
     color: #fff;
     margin: 1%;
     min-width: 30%;

@@ -10,20 +10,20 @@ export function Home(){
                 <Centro>
                     
                     <Principal>
-                        teste
+                        
                     </Principal>
                     
                     <Alinha>
                         <Secundario>
-                            Teste
+                            
                         </Secundario>
 
                         <Secundario>
-                            Teste
+                            
                         </Secundario>
 
                         <Secundario>
-                            Teste
+                            
                         </Secundario>
                     </Alinha>
                 </Centro>

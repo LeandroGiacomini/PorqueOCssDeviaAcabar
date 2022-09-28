@@ -31,6 +31,18 @@ const GlobalStyle = createGlobalStyle`
     a{
         color: #333333;
     }
+    body::-webkit-scrollbar{
+        width:10px;
+    }
+    body::-webkit-scrollbar-track{
+        background:azure;
+    }
+    body::-webkit-scrollbar-thumb{
+        background:gray;
+        border-radius:20px;
+        border: 3px solid azure;
+    }
+
 
 `;
 
